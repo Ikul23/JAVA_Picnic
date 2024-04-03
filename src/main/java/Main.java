@@ -49,8 +49,7 @@ public class Main {
                 System.out.println(entry.getKey() + ": " + entry.getValue());
             }
 
-            // Закрытие сканнера
-            scanner.close();
+              scanner.close();
 
         } catch (FileNotFoundException e) {
             System.out.println("Файл не найден: " + e.getMessage());
